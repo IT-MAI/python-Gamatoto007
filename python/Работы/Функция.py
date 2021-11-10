@@ -6,6 +6,4 @@ def sum (x,y,z):
     return (x*y)+z
 S = sum (x,y,z)
 print (S)
-S=S
-if S>=100:
-    print("Кто прочитал тот лох")
+
