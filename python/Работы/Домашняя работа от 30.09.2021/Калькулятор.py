@@ -10,8 +10,3 @@ if c in ('+', '-', '*', '/'):
         print(a-b)
     elif c=="*":
         print(a*b)
-
-
-
-
-
