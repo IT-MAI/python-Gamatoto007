@@ -11,7 +11,7 @@ Student3 = Student("Надя", "Карпова", 22, "женский", 3815 - 45
 Student4 = Student("Алексаднр", "Романов", 20, "мужской", 4255 - 30)
 Student5 = Student("Раян", "Гостлинг", 18, "мужской", 1246 - 86)
 students= [Student1, Student2, Student3, Student4, Student5]
-#Выводим данные с помощью цикла
+#Выводим данные с помощью цикла for
 def info_students(students):
     for l in range(len(students)):
         print(students[l].name, students[l].Fname, students[l].age, students[l].gender, students[l].ind)

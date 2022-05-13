@@ -4,7 +4,7 @@ class Cards:
     def __init__(self, aboba):
 # Список для хранения карт
         self.aboba=sorted(aboba, key=lambda A: random.random())
-#Список сброса
+#Список сброса списка
         self.out=[]
 #Функция, убирающая карту из основной стопки и добовляющую в стопку сброса
     def draw(self):
